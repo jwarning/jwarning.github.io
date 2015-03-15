@@ -6,7 +6,7 @@ var ContentAbout = React.createClass({
       <div className='content-about'>
         <div className='pure-g'>
           <div className='pure-u-1-1'>
-            <h1 id="about-section">About</h1>
+            <h1>About</h1>
             <hr />
           </div>
         </div>

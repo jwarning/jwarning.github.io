@@ -31,9 +31,9 @@ var AppContainer = React.createClass({
   },
   scrollDown: function (section) {
     var el = document.querySelector(section);
-    var newScrollHeight = el ? window.scrollY + el.getBoundingClientRect().top - 64 : 0;
+    var newScrollHeight = el ? window.pageYOffset + el.getBoundingClientRect().top - 64 : 0;
 
-    this.setState({ scrollHeight: window.scrollY }, () => {
+    this.setState({ scrollHeight: window.pageYOffset }, () => {
       var interval = setInterval(() => {
         if (this.state.scrollHeight >= newScrollHeight) {
           window.scroll(0, newScrollHeight);
