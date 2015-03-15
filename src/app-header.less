@@ -1,0 +1,97 @@
+@import 'app.less';
+
+.app-header {
+  background: url('long-road-straight.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+
+  .text-container {
+    width: 440px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    h1 {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 42px;
+      text-shadow: 0 1px 8px #777;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: white;
+      margin: 0;
+    }
+
+    h2 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 28px;
+      font-weight: normal;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      text-shadow: 0 1px 8px #222;
+      color: @orange;
+      margin: 0;
+    }
+
+    h3 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      line-height: 20px;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 8px #222;
+      color: white;
+      margin: 0;
+    }
+
+    hr {
+      border: 1px solid @red;
+      border-bottom: 0;
+      margin: 10px 50px;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .text-container {
+      width: 640px;
+
+      h1 {
+        font-size: 64px;
+      }
+
+      h2 {
+        font-size: 32px;
+      }
+
+      h3 {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .scroll-more {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1000px;
+    cursor: pointer;
+
+    div {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 14px;
+      padding-top: 7px;
+    }
+
+    .fa-angle-double-down {
+      font-size: 20px;
+    }
+  }
+}
