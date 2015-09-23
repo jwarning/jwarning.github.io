@@ -1,0 +1,108 @@
+/* main styles - precss */
+
+$min-width: 320px;
+$off-white: #fffef2;
+$off-black: #050505;
+$yellow: #ffeb75;
+$blue: #1bb8d1;
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-width: $min-width;
+  min-height: 100%;
+  background: url('mountain-background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.spacer-top,
+.spacer-bottom {
+  min-height: 100px;
+}
+
+.main-content {
+  min-height: 200px;
+}
+
+.title-header {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 12px #555;
+  color: $off-black;
+}
+
+.title-header .bold {
+  margin-left: 2px;
+  font-weight: 700;
+  color: $off-white;
+}
+
+.subtitle-header {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 0 20px 0;
+  font-size: 28px;
+  text-shadow: 0 1px 8px #777;
+  color: $blue;
+}
+
+.about-section {
+  height: 50px;
+}
+
+.horizontal-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 254, 242, 0.7);
+  position: relative;
+  top: 54px;
+}
+
+.social-media-section {
+  margin-left: 40px;
+}
+
+.social-media-link {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  color: $off-white;
+  font-size: 24px;
+
+  a:link,
+  a:visited,
+  a:active {
+    color: $off-white;
+  }
+
+  a:hover {
+    color: #c9c9c9;
+  }
+}
+
+@media screen
+  and (max-width: 640px) {
+    .title-header .bold {
+      display: block;
+    }
+
+    .horizontal-line {
+      top: 104px;
+    }
+
+    .subtitle-header {
+      display: block;
+    }
+
+    .social-media-section {
+      margin-left: 0;
+    }
+}

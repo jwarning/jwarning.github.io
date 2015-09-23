@@ -1,26 +1,18 @@
 {
-  "name": "jwarning-site",
+  "name": "jwarning.github.io",
   "version": "1.0.0",
-  "description": "Personal site",
-  "author": "J Warning",
+  "description": "",
+  "main": "index.js",
+  "author": "Jonathan Warning",
+  "license": "ISC",
   "devDependencies": {
-    "css-loader": "^0.9.1",
-    "file-loader": "^0.8.1",
-    "gulp": "^3.8.11",
-    "gulp-webpack": "^1.3.0",
-    "jsx-loader": "^0.12.2",
-    "less": "^2.4.0",
-    "less-loader": "^2.1.0",
-    "lodash": "^3.5.0",
-    "react": "^0.13.0",
-    "react-hot-loader": "^1.2.3",
-    "react-style": "^0.4.1",
-    "style-loader": "^0.8.3",
-    "url-loader": "^0.5.5",
-    "webpack": "^1.7.3",
-    "webpack-dev-server": "^1.7.0"
-  },
-  "scripts": {
-    "start": "node start.js"
+    "babel-core": "^5.8.25",
+    "css-mqpacker": "^4.0.0",
+    "cssnext": "^1.8.4",
+    "csswring": "^4.0.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
+    "precss": "^1.1.3"
   }
 }
