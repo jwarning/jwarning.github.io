@@ -99,15 +99,17 @@ body {
 }
 
 .pure-button {
-  background-color: $off-white;
-  color: $off-black;
+  background-color: $blue;
+  color: $off-white;
   margin-top: 15px;
+  padding: 8px 16px;
 }
 
 .pure-button:focus,
 .pure-button:hover,
 .pure-button:active {
   background: $grey;
+  color: $off-black;
   box-shadow: none;
 }
 
