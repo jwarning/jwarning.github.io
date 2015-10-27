@@ -6,13 +6,13 @@
   "author": "Jonathan Warning",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^5.8.25",
+    "babel-core": "^5.8.29",
     "css-mqpacker": "^4.0.0",
     "cssnext": "^1.8.4",
     "csswring": "^4.0.0",
     "gulp": "^3.9.0",
-    "gulp-postcss": "^6.0.0",
+    "gulp-postcss": "^6.0.1",
     "gulp-rename": "^1.2.2",
-    "precss": "^1.2.3"
+    "precss": "^1.3.0"
   }
 }
