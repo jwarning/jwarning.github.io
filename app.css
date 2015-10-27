@@ -3,6 +3,7 @@
 $min-width: 320px;
 $off-white: #fffef2;
 $off-black: #050505;
+$grey: #c9c9c9;
 $blue: #1bb8d1;
 
 html,
@@ -79,7 +80,7 @@ body {
 
   a:hover,
   a:active {
-    color: #c9c9c9;
+    color: $grey;
   }
 
   .fa-envelope-o {
@@ -98,23 +99,16 @@ body {
 }
 
 .pure-button {
-  background-color: transparent;
-  border: 2px solid $off-white;
-  color: $off-white;
+  background-color: $off-white;
+  color: $off-black;
   margin-top: 15px;
 }
 
-.pure-button:hover,
 .pure-button:focus,
-.pure-button:active {
-  background: none;
-  box-shadow: none;
-}
-
 .pure-button:hover,
 .pure-button:active {
-  background-color: $off-white;
-  color: $off-black;
+  background: $grey;
+  box-shadow: none;
 }
 
 @media screen
