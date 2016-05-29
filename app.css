@@ -1,6 +1,6 @@
-/* main styles - precss */
+/* main styles - precss and cssnext syntax */
 
-$min-width: 320px;
+$min-width: 300px;
 $off-white: #fffef2;
 $off-black: #050505;
 $grey: #c9c9c9;
@@ -37,12 +37,12 @@ body {
   text-transform: uppercase;
   text-shadow: 0 1px 12px #555;
   color: $off-black;
-}
 
-.title-header .bold {
-  margin-left: 2px;
-  font-weight: 700;
-  color: $off-white;
+  .bold {
+    margin-left: 2px;
+    font-weight: 700;
+    color: $off-white;
+  }
 }
 
 .subtitle-header {
@@ -120,12 +120,26 @@ body {
       min-height: 40px;
     }
 
-    .title-header .bold {
-      display: block;
+    .main-content {
+      text-align: center;
+    }
+
+    .title-header {
+      line-height: 40px;
+      margin-bottom: 24px;
+
+      .bold {
+        display: block;
+        margin-left: 0;
+      }
+
+      .smaller {
+        font-size: 36px;
+      }
     }
 
     .horizontal-line {
-      top: 104px;
+      top: 96px;
     }
 
     .subtitle-header {
@@ -133,7 +147,8 @@ body {
     }
 
     .about-section {
-      width: 200px;
+      display: inline-block;
+      width: auto;
       margin-top: 30px;
     }
 

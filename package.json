@@ -1,18 +1,22 @@
 {
   "name": "jwarning.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "jwarning.github.io",
   "author": "Jonathan Warning",
-  "license": "ISC",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gulp"
+  },
   "devDependencies": {
-    "babel-core": "^5.8.29",
-    "css-mqpacker": "^4.0.0",
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "css-mqpacker": "^5.0.1",
     "cssnext": "^1.8.4",
-    "csswring": "^4.0.0",
-    "gulp": "^3.9.0",
-    "gulp-postcss": "^6.0.1",
+    "csswring": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
     "gulp-rename": "^1.2.2",
-    "precss": "^1.3.0"
+    "precss": "^1.4.0"
   }
 }
